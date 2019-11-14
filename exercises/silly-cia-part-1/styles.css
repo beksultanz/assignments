@@ -1,0 +1,41 @@
+h1,
+h2 {
+	text-align: center;
+	font-family: Georgia;
+}
+
+h1 {
+	color: darkgreen;
+}
+
+p {
+    line-height: 25px;
+    font-size: 22px;
+    text-align: justify;
+    position: relative;
+    margin: ;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+
+body img {
+	float: left;
+}
+
+
+ul {
+    font-size: 20px;
+}
+
+body {
+    margin-right: 20%;
+    margin-left: 20%;
+}
