@@ -1,0 +1,39 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.header__heading-1 {
+    font-size: 80px;
+    color: #005bd3;
+} 
+
+.header__heading-2 {
+    font-size: 40px;
+    color: #f1c40f;
+    
+}
+
+.main__p {
+    line-height: 3;
+    text-align: justify;
+    color: #5f27cd;
+}
+
+a {
+    cursor: pointer;
+    color: #ee5253;
+}
+
+.names {
+    text-decoration: underline;
+}
+
+.footer p {
+    font-size: 20px; 
+    color: #10ac84;
+    font-style: oblique;
+}
+
