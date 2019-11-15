@@ -1,6 +1,6 @@
 // #1
 
-var officeItems = [
+let officeItems = [
 	"stapler",
 	"monitor",
 	"computer",
@@ -13,8 +13,8 @@ var officeItems = [
 	"computer"
 ];
 
-var count = 0;
-for (var i = 0; i < officeItems.length; i++) {
+let count = 0;
+for (let i = 0; i < officeItems.length; i++) {
 	if (officeItems[i] == "computer") count++;
 }
 
@@ -22,7 +22,7 @@ console.log(count);
 
 // #2
 
-var peopleWhoWantToSeeMadMaxFuryRoad = [
+let peopleWhoWantToSeeMadMaxFuryRoad = [
 	{
 		name: "Mike",
 		age: 12,
@@ -50,15 +50,26 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
 	}
 ];
 
-for (i = 0; i <= peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
-	if (peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18) {
+
+for (let i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
+	let person = peopleWhoWantToSeeMadMaxFuryRoad[i];
+	let pronoun = person.gender === "male" ? "HE" : "SHE";
+	let preposition = person.gender === "male" ? " HIM" : " HER";
+
+	if (person.age >= 18) {
 		console.log(
-			peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max"
+			person.name +
+				" is old enough. " +
+				pronoun +
+				"'S" +
+				" good to see Mad Max Fury Road"
 		);
 	} else {
 		console.log(
-			peopleWhoWantToSeeMadMaxFuryRoad[i].name +
-				" is not old enough to see Mad Max"
+			person.name +
+				" is not old enough to see Mad Max Free Road, don't let " +
+				preposition +
+				" in"
 		);
 	}
 }
