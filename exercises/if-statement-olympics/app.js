@@ -3,7 +3,7 @@
 if (5 > 3) {
 	console.log("5 is greater than 3");
 }
-var animal = "cat"
+var animal = "cat";
 
 if (animal.length === 3) {
 	console.log("cat length is 3");
@@ -51,13 +51,11 @@ if (1 === "1") {
 }
 
 if (1 <= 2 && 2 === 4) {
-    console.log("yes")
+	console.log("yes");
 }
 
+//Gold Medal
 
-//Gold Medal 
-
-if ("dog" == String) {
-    console.log("yes")
-} 
-
+if (typeof "dog" == "string") {
+	console.log("dog is " + typeof "dog");
+}
