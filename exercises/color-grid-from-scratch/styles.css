@@ -4,59 +4,58 @@
 }
 
 .container {
-	width: 800px;
-	height: 600px;
+	width: 830px;
+	height: 615px;
 	border: 1px solid white;
 	margin: 0 auto;
 }
 
-.box,
-.box2,
-.box3,
-.box4 {
-	width: 800px;
+.box {
+	width: 830px;
 	height: 150px;
+	margin-bottom: 10px;
 }
 
 .box__1 {
 	background: #f5c6d6;
-	height: 100%;
-	width: 100%;
+	height: inherit;
+	width: inherit;
 	display: inline-block;
-	border: 5px solid white;
 }
 
-.box2__1,
-.box2__2,
-.box2__3,
-.box2__4 {
+.box__2 {
 	background: #ee2e84;
-	height: 100%;
-	width: 25%;
+	height: inherit;
+	width: 200px;
 	display: inline-block;
-	border: 5px solid white;
 }
 
-.box3__1 {
+.box__2:not(:last-child) {
+	margin-right: 10px;
+}
+
+.box__3 {
 	background: #85cfd8;
-	height: 100%;
-	width: 50%;
+	height: inherit;
+	width: 410px;
 	display: inline-block;
-	border: 5px solid white;
 }
 
-.box4__1 {
+.box__3:first-child {
+	margin-right: 10px;
+}
+
+.box__4 {
 	background: #8dc63f;
-	height: 100%;
-	width: 70%;
+	height: inherit;
+	width: 610px;
+	margin-right: 10px;
 	display: inline-block;
-	border: 5px solid white;
 }
 
-.box4__2 {
+.box__5 {
 	background: #e76e34;
-	height: 100%;
-	width: 30%;
+	height: inherit;
+	width: 210px;
 	display: inline-block;
-	border: 5px solid white;
 }
