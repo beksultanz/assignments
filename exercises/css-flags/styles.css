@@ -1,0 +1,175 @@
+.container {
+	width: 1400px;
+	height: auto;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.france {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.france-1,
+.france-2,
+.france-3 {
+	display: inline-block;
+	height: 218px;
+	width: 100px;
+	position: relative;
+}
+.france-1 {
+	background-color: blue;
+	border: 2px solid blue;
+}
+.france-2 {
+	background-color: white;
+	border: 2px solid white;
+}
+.france-3 {
+	background-color: red;
+	border: 2px solid red;
+}
+
+.germany {
+	display: inline-block;
+	background-color: pink;
+	margin-right: 20px;
+}
+
+.germany-1,
+.germany-2,
+.germany-3 {
+	height: 70px;
+	width: 316px;
+	position: relative;
+}
+
+.germany-1 {
+	background-color: black;
+	border: 2px solid black;
+}
+.germany-2 {
+	background-color: red;
+	border: 2px solid red;
+}
+.germany-3 {
+	background-color: yellow;
+	border: 2px solid yellow;
+}
+
+.madagascar {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.madagascar-1 {
+	display: inline-block;
+	height: 222px;
+	width: 100px;
+	position: relative;
+	background-color: white;
+}
+.madagascar-2 {
+	display: inline-block;
+	height: 111px;
+	width: 218px;
+	position: absolute;
+	background-color: red;
+}
+
+.madagascar-3 {
+	display: inline-block;
+	height: 111px;
+	width: 218px;
+	position: relative;
+	background-color: green;
+}
+
+.swiss {
+	display: inline-block;
+	width: 320px;
+	height: 222px;
+	background-color: red;
+	vertical-align: top;
+}
+
+.swiss-1 {
+	display: inline-block;
+	width: 170px;
+	height: 65px;
+	background-color: white;
+	position: relative;
+	vertical-align: middle;
+	top: -36pt;
+	left: 55pt;
+}
+
+.swiss-2 {
+	display: inline-block;
+	width: 65px;
+	height: 170px;
+	background-color: white;
+	position: relative;
+	top: 23pt;
+	left: -36pt;
+}
+
+.sweden {
+	display: inline-block;
+	width: 320px;
+	height: 222px;
+	background-color: #4b7bec;
+	margin-right: 20px;
+}
+.sweden-1 {
+	display: inline-block;
+	position: relative;
+	background-color: yellow; 
+	width: 40px;
+	height: inherit;
+	left: 70pt;
+}
+
+.sweden-2 {
+	display: inline-block;
+	position: relative;
+	background-color: yellow;
+	width: inherit;
+	height: 40px;
+	top: -95pt;
+}
+
+.gambia {
+	display: inline-block;
+	height: 222px;
+	width: 320px;
+	/* position: relative; */
+	background-color: white; 
+}
+
+.gambia-1 {
+	height: 70px;
+	width: 320px;
+	/* position: relative; */
+	background-color: red;
+	margin-bottom: 15px;
+}
+
+.gambia-2 { 
+	height: 50px;
+	width: 320px;
+	/* position: relative; */
+	background-color: blue;
+	margin-bottom: 15px;
+}
+
+.gambia-3 {
+	height: 70px;
+	width: 320px;
+	/* position: relative; */
+	background-color: green; 
+	margin-bottom: 15px;
+}
+ 
