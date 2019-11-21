@@ -1,0 +1,20 @@
+
+#add-form,
+#subtract-form {
+	margin-bottom: 20px;
+}
+
+.result {
+	color: red;
+	font-size: 20px;
+}
+
+.subResult {
+    color: aqua;
+    font-size: 20px;
+}
+
+.multResult {
+    color: yellow;
+    font-size: 20px;
+}
