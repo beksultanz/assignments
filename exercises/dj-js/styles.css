@@ -1,0 +1,12 @@
+.container {
+	width: 200px;
+	height: 200px;
+	margin: 200px auto;
+}
+
+#square {
+	width: 50%;
+	height: 50%;
+	background-color: blanchedalmond;
+	margin: 0 auto;
+}

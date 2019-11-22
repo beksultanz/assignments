@@ -47,7 +47,7 @@ multiplyForm.addEventListener("submit", function(e) {
 	e.preventDefault();
 	let input5 = parseInt(multiplyForm.num1.value);
 	let input6 = parseInt(multiplyForm.num2.value);
-	let multResult = createElement("div");
+	let multResult = document.createElement("div");
 	multResult.className = "multResult";
 
 	multResult.textContent = input5 * input6;

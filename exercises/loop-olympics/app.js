@@ -118,3 +118,23 @@ console.log(arrOccupations2)
 
 // Gold Medal 
 
+function nestedForLoop() {
+	let myArr = []
+	let nestArr = []
+	for (let i = 0; i < 3; i++) {
+	 myArr.push(i)
+	}
+	  for (let j = 0; j < myArr.length; j++){
+		nestArr.push(myArr)
+	  }
+	console.log(nestArr)
+  }
+  console.log(nestedForLoop()) 
+
+// for(var i = 0; i < 1; i++){
+//     var myArray = []
+//     myArray.push(i, i, i)
+//     for(var j = 0; j < myArray.length; j++){
+//         console.log(myArray)
+//     }
+// }
