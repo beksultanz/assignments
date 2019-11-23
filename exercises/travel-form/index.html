@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="h1">Welcome to Sultan Airlines</h1>
+			<img
+				src="https://www.scitecheuropa.eu/wp-content/uploads/2018/11/plane-without-moving-parts.jpg"
+				class="img"
+			/>
+			<form name="travelForm" id="travelForm">
+				<div>
+					<input type="text" name="firstName" placeholder="First Name" />
+					<input type="text" name="lastName" placeholder="Last Name" />
+					<input type="number" name="age" placeholder="Age" />
+				</div>
+				<div id="gender">
+					<laber for="gender">Gender:</laber>
+					<input type="radio" name="gender" value="male" id="male"/>male
+					<input type="radio" name="gender" value="female" id="female"/>female
+				</div>
+				<div id="location">
+					<label for="location">Choose location:</label>
+					<select name="location">
+						<option value="france">France</option>
+						<option value="japan">Japan</option>
+						<option value="columbia">Columbia</option>
+					</select>
+				</div>
+				<div id="dietRestrictions">
+					<label for="dietRestrictions">Dietary Restrictions</label>
+					<input type="checkbox" name="diet" value="kosher" />kosher
+					<input type="checkbox" name="diet" value="halal" />halal
+					<input type="checkbox" name="diet" value="lactose-free" />lactose-free
+				</div>
+				<button type="sumbit" id="button">Submit</button>
+			</form>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
