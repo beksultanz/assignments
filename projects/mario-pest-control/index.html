@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Mario's Pest Control</title>
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h1 class="header__title">Mario's Pest Control</h1>
+			</header>
+			<main class="baddies">
+				<div class="goombas">
+					<img
+						src="https://vignette.wikia.nocookie.net/mario/images/9/9c/Goomba_-_MarioPartyStarRush.png/revision/latest?cb=20190423153742"
+						alt="goombas"
+					/>
+					<ul class="goombas__list">
+						<li class="goombas__detail">Name: Goombas</li>
+						<li>Price: 5 💰</li>
+					</ul>
+					<form name="goombasForm" id="goombasForm">
+						<input
+							type="text"
+							name="goombas"
+							id="goombas__input"
+							placeholder="Total Caught"
+						/>
+						<input type="submit" value="Submit" />
+					</form>
+				</div>
+				<div class="bobombs">
+					<img
+						src="https://vignette.wikia.nocookie.net/newersupermariobroswii/images/6/63/BobombNSMBU.png/revision/latest?cb=20171220202936"
+					/>
+					<ul class="bobombs__list">
+						<li class="bobombs__detail">Name: Bob-ombs</li>
+						<li>Price: 7 💰</li>
+					</ul>
+					<form name="bobombsForm" id="bobombsForm">
+						<input
+							type="text"
+							name="bobombs"
+							id="bobombs__input"
+							placeholder="Total Caught"
+						/>
+						<input type="submit" value="Submit" />
+					</form>
+				</div>
+				<div class="cheepcheeps">
+					<img
+						src="https://vignette.wikia.nocookie.net/mario/images/7/71/NSMBU_Cheep_Cheep.png/revision/latest?cb=20190808220102"
+						alt="cheeps-cheeps"
+					/>
+					<ul class="cheepscheeps__list">
+						<li class="cheepcheeps__detail">Name: Cheeps-cheeps</li>
+						<li>Price: 11 💰</li>
+					</ul>
+					<form name="cheepscheepsForm" id="cheepscheepsForm">
+						<input
+							type="text"
+							name="cheepscheeps"
+							id="cheepscheeps__input"
+							placeholder="Total caught"
+						/>
+						<input type="submit" value="Submit" />
+					</form>
+				</div>
+			</main>
+			<section class="payable">
+				<p>
+					Total amount needs to be paid to Mario: 💰<span
+						id="baddies__total"
+					></span>
+				</p>
+			</section>
+			<footer class="footer">
+				<p>mario@pestcontrol.com</p>
+				<a href="">www.pestcontrol.com</a>
+				<p>555 Mario Dr, Sandy, UT 84070</p>
+			</footer>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
