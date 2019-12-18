@@ -1,0 +1,28 @@
+{
+	"appetizers": [
+		{
+			"name": "veggi soup",
+            "ingredients": ["parslay", "carrot", "mineral water", "potatos"],
+            "description": "healthy choice for those who would like to keep their shape"
+		},
+		{ "name": "tomato soup", "ingredients": ["tomato", "cream"], "description": "for those who appreciate the tomato" }
+	],
+
+	"cold sandwiches": [
+		{ "name": "tuna", "ingredients": ["fish, onion,"], "description": "if you would like to go to sea but do not have time, do not worry try our tuna sandwich and it will take you straight to the sea" },
+		{ "name": "chicken", "ingredients": ["chicken", "cucumber", "pepper"], "description": "simple, light and tasty"}
+	],
+
+    "hot sandwiches": [{ "name": "panini", "ingredients": [ "cheese", "tomato"], "description": "if you've never been to italy, no woories at our place you can enjoy italian sandwich which will make you feel you're in Italy" }, 
+                        {"name": "shawarma", "indgredients": ["pita bread", "lamb", "pickles", "white souse"], "description": "the best mediterrian fast-food"}],
+
+	"desserts": [{ "name": "tiramisu", "ingredients": ["dark chocolate", "biscuit"], "description": "for those who tried our panini sandwich, this is another way to open another side of Italian cuisine" }, 
+           { "name": "chak-chak", "indgredients": ["flower", "honey"], "descriptions": "central asian delicious dessert made with love"}],
+
+    "drinks": [{ "name": "homemade lemonade", "ingredients": ["water,lemons"], "description": "sit, drink and enjoy"}, 
+            {"name": "apple juice", "indgredients": ["apple", "no sugar"], "description": "homemade juice, drink it slow by enfoying each moment" }]
+   
+
+}
+
+    
