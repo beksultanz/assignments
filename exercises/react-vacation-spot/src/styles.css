@@ -1,0 +1,31 @@
+.box {
+    margin: 0 auto;
+    height: auto;
+    width: 500px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    
+    
+}
+
+.box:first-child {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/travel.jpg);
+    background-size: cover;
+}
+
+.price {
+    background-color: #2ecc71;
+    color: #f1c40f; 
+}
+
+.cost {
+    font-size: 25px;
+}
+
+.season {
+    font-size: 25px;
+}
