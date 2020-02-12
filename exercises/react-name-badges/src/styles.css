@@ -1,0 +1,29 @@
+* { 
+    margin: 0; 
+}
+
+
+.container {
+    background-color: rgb(228, 187, 187);
+}
+
+.container header {
+    margin-left: 20px;
+}
+
+.badges {
+    background-color: blanchedalmond;
+    width: 200px;
+}
+
+.form {
+    margin: 20px; 
+    display: grid;
+    grid-gap: 10px;
+    width: 18%;
+    text-align: center;
+}
+
+.text {
+    border: 1px #bdc3c7 solid
+}
