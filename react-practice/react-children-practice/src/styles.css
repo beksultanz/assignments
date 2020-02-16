@@ -1,0 +1,12 @@
+main > h1,
+p {
+	text-align: center;
+}
+
+.callout {
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 20px;
+	background-color: #c0fffe;
+}
